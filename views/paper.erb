@@ -1,17 +1,17 @@
-<!-- /views/rock.erb -->
+<!-- /views/paper.erb -->
 
 <!DOCTYPE html>
 <html>
 
   <head>
-    <title>Rock</title>
+    <title>Paper</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
   </head>
 
   <body>
     
-    <h2>We played rock!</h2>
+    <h2>We played paper!</h2>
 
     <h2>
       <% if @computer == "rock"%>
@@ -25,11 +25,11 @@
 
     <h2>
       <% if @computer == "rock"%>
-        <h2>We tied!</h2>
-      <% elsif @computer == "paper"%>
-        <h2>We lost!</h2>
-      <% else %>
         <h2>We won!</h2>
+      <% elsif @computer == "paper"%>
+        <h2>We tied!</h2>
+      <% else %>
+        <h2>We lost!</h2>
       <% end %>
     </h2>
 
