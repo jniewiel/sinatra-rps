@@ -53,5 +53,11 @@
   "redhat.telemetry.enabled": false,
   "emmet.includeLanguages": {
     "erb": "html"
-  }
+  },
+  "editor.hover.enabled": false,
+  "editor.hover.sticky": false,
+  "editor.hover.hidingDelay": 0,
+  "editor.hover.delay": 0,
+  "workbench.hover.delay": 0,
+  "workbench.sash.hoverDelay": 0
 }
