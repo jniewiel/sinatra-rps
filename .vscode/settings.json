@@ -60,5 +60,6 @@
   "editor.hover.delay": 0,
   "workbench.hover.delay": 0,
   "workbench.sash.hoverDelay": 0,
-  "editor.inlineSuggest.showToolbar": "always"
+  "editor.inlineSuggest.showToolbar": "always",
+  "editor.snippetSuggestions": "bottom"
 }
