@@ -31,12 +31,20 @@ end
 # ------------------------------------------------------------------ #
 
 get('/paper') do
+  options = ["rock", "paper", "scissors"]
+  @computer = options.sample
+  @player = "rock"
+
   erb(:paper)
 end
 
 # ------------------------------------------------------------------ #
 
 get('/scissors') do
+  options = ["rock", "paper", "scissors"]
+  @computer = options.sample
+  @player = "rock"
+  
   erb(:scissors)
 end
 
