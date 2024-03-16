@@ -1,0 +1,42 @@
+<!-- /views/rock.erb -->
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Rock</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+
+  <body>
+    
+    <h2>We played rock!</h2>
+
+    <h2>
+      <% if @computer == "rock"%>
+        <h2>They played rock!</h2>
+      <% elsif @computer == "paper"%>
+        <h2>They played paper!</h2>
+      <% else %>
+        <h2>They played scissors!</h2>
+      <% end %>
+    </h2>
+
+    <h2>
+      <% if @computer == "rock"%>
+        <h2>We tied!</h2>
+      <% elsif @computer == "paper"%>
+        <h2>We lost!</h2>
+      <% else %>
+        <h2>We won!</h2>
+      <% end %>
+    </h2>
+
+    <a href="/">
+      Rules
+    </a>
+
+  </body>
+
+</html>
